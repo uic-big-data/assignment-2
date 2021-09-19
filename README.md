@@ -7,7 +7,7 @@ Course webpage: https://fmiranda.me/courses/cs594-fall-2021/
 ## Assignment 2: Angular and Flask
 The goal of this assignment is to get you familiar with JavaScript / TypeScript, D3, Angular, and Flask. You will develop a web application to visualize the  distribution of accumulated shadows for each season of the year, making use of a front-end and back-end infrastructure. Similar to the previous assignment, the accumulated shadows were computed for three days of the year: June 21 (summer solstice), September 22 (autumnal equinox) and December 21 (winter solstice). Shadows can be greatly distorted when they are near the horizon, so all the shadows in the dataset are estimated from one and a half hours after sunrise to one and a half hours before sunset. This time, however, the shadow information was aggregated considering the street network, i.e., each street segment contains the accumulated shadow for the three days of the year.
 
-You can download the datasets [here](https://github.com/uic-big-data/fall-2021-assignment-2/blob/main/chicago-street-shadow.geojson), and find more information [here](https://fmiranda.me/publications/shadow-accrual-maps/) and [here](https://github.com/VIDA-NYU/shadow-accrual-maps/).
+You can download the datasets [here](https://raw.githubusercontent.com/uic-big-data/fall-2021-assignment-2/main/chicago-street-shadow.geojson), and find more information [here](https://fmiranda.me/publications/shadow-accrual-maps/) and [here](https://github.com/VIDA-NYU/shadow-accrual-maps/).
 
 There are three tasks, and you are free to use the skeleton code provided. The skeleton code is an Angular project with three components:
 
