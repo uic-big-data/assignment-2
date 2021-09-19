@@ -9,14 +9,14 @@ The goal of this assignment is to get you familiar with JavaScript / TypeScript,
 
 You can download the datasets [here](https://raw.githubusercontent.com/uic-big-data/fall-2021-assignment-2/main/chicago-street-shadow.geojson), and find more information [here](https://fmiranda.me/publications/shadow-accrual-maps/) and [here](https://github.com/VIDA-NYU/shadow-accrual-maps/).
 
-There are three tasks, and you are free to use the skeleton code provided. The skeleton code is an Angular project with three components:
+There are three tasks, and you are free to use the skeleton code provided. The skeleton code is an Angular project with two components and a service:
 
 ```
 ng new shadow-maps
 cd shadow-maps
 ng generate component map
 ng generate component chart
-ng generate component data
+ng generate service data
 ```
 
 The code makes use of [D3.js](https://d3js.org/) and [OpenLayers](https://openlayers.org/):
