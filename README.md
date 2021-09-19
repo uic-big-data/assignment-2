@@ -12,8 +12,8 @@ You can download the datasets [here](https://raw.githubusercontent.com/uic-big-d
 There are three tasks, and you are free to use the skeleton code provided. The skeleton code is an Angular project with two components and a service:
 
 ```
-ng new shadow-maps
-cd shadow-maps
+ng new vis
+cd vis
 ng generate component map
 ng generate component chart
 ng generate service data
