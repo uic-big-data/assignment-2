@@ -33,7 +33,7 @@ The back-end code makes use of [GeoPandas](https://geopandas.org/) and [Flask](h
 conda install geopandas flask
 ```
 
-If you want to create a new environment before installing GeoPandas and Flask:
+If you want, you can create a new environment before installing GeoPandas and Flask:
 ```
 conda create --name geopandas
 conda activate geopandas
