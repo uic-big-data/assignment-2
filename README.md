@@ -27,7 +27,7 @@ npm install --save-dev d3 ol @types/d3 @types/ol
 
 Even if using the skeleton code, you should run ```npm install``` inside the ```vis``` folder.
 
-The back-end code makes use of [GeoPandas](https://geopandas.org/) and [Flask](https://flask.palletsprojects.com/). You can install it using [Conda](https://docs.conda.io/en/latest/) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html):
+The back-end code makes use of [GeoPandas](https://geopandas.org/) and [Flask](https://flask.palletsprojects.com/). You can install it using [Conda](https://docs.conda.io/en/latest/) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)):
 
 ```
 conda install geopandas flask
